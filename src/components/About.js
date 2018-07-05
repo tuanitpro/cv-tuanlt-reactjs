@@ -4,9 +4,7 @@ import React, {
 
 class About extends Component {
     render(){
-        return(
-           
-          
+        return(                     
            <section  id="about">
                 <div className="container">
                     <div className="row">
@@ -15,7 +13,7 @@ class About extends Component {
                             <h3 className="section-subheading text-muted">.NET Developer</h3>
                         </div>
                         <div className="col-lg-4 text-center col-md-4 col-sm-4 col-xs-12 pull-right media wow zoomIn animated">
-                            <img alt="" className="img-circle img-me" src="https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/29432191_10209247614462320_7160741214453497856_n.jpg?_nc_cat=0&oh=b3508c50f332759b862f0c2580288d9f&oe=5B8AB5D0" />
+                            <img alt="" className="img-circle img-me" src="http://tuanitpro.com/wp-content/uploads/2018/05/me2018.png" />
                         </div>
                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
                             <h3>Lê Thanh Tuấn</h3>
@@ -27,10 +25,8 @@ class About extends Component {
                                   which enables me to learn new technology fast and easily.
         
                                 </p>
-                                <p className="text-muted">
-                                   
-                                        Good knowledge of C#-OOP, HTML, ASP/ASP.NET MVC, WPF and Windows Form Application, database programming language.
-                                       
+                                <p className="text-muted">                                   
+                                        Good knowledge of C#-OOP, HTML, ASP/ASP.NET MVC, WPF and Windows Form Application, database programming language.                                       
                                 </p>
                                 <p className="text-muted">
                                         Good knowledge of HTML, CSS, JavaScript, Ajax Angular JS, Typescript (object oriented with JavaScript, HTML standard compliance, HTM5/CSS3)

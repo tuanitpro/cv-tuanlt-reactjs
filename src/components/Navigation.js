@@ -3,6 +3,9 @@ import React, {
 } from 'react';
 
 class Navigation extends Component {
+    componentDidMount() {
+        
+    }
     render() {
         return (
             <nav className ="navbar navbar-default navbar-fixed-top">
