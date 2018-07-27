@@ -2,37 +2,62 @@ import React, {
     Component
 } from 'react';
 import resources from '../Resources';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem } from 'reactstrap';
 class Navigation extends Component {
-    componentDidMount() {
-        
-    }
+    
+    constructor(props) {
+        super(props);
+    
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+          isOpen: false
+        };
+      }
+      toggle() {
+        this.setState({
+          isOpen: !this.state.isOpen
+        });
+      }
     render() {
         return (
-            <nav className ="navbar navbar-default navbar-fixed-top">
-            <div className ="container">
-                <div className ="navbar-header page-scroll">
-                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span className ="sr-only">Toggle navigation</span>
-                        <span className ="icon-bar"></span>
-                        <span className ="icon-bar"></span>
-                        <span className ="icon-bar"></span>
-                    </button>
-                    <a className ="navbar-brand page-scroll" href="#page-top">{resources.title}</a>
-                </div>
-                    
-                <div className ="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul className ="nav navbar-nav navbar-right">
-                        <li className ="hidden"><a href="#page-top"></a></li>
-                        <li><a className ="page-scroll" href="#about">{resources.menu_about}</a></li>
-                        <li><a className ="page-scroll" href="#skills">{resources.menu_skills}</a></li>                       
-                        <li><a className ="page-scroll" href="#portfolio">{resources.menu_work_experience}</a></li>
-                        <li><a className ="page-scroll" href="#resume">{resources.menu_resume}</a></li>
-                        <li><a className ="page-scroll" href="#contact">{resources.menu_contact}</a></li>
-                    </ul>
-                </div>              
+            <div>
+                  <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">{resources.title}</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="#about">{resources.menu_about}</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#skills">{resources.menu_skills}</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#portfolio">{resources.menu_work_experience}</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#resume">{resources.menu_resume}</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#contact">{resources.menu_contact}</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+         
     
-            </div>
-        </nav>
+        </div>
         )
     }
 }
