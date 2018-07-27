@@ -1,7 +1,7 @@
 import React, {
     Component
 } from 'react';
-
+import resources from '../Resources';
 class Navigation extends Component {
     componentDidMount() {
         
@@ -17,17 +17,17 @@ class Navigation extends Component {
                         <span className ="icon-bar"></span>
                         <span className ="icon-bar"></span>
                     </button>
-                    <a className ="navbar-brand page-scroll" href="#page-top">LÊ THANH TUẤN</a>
+                    <a className ="navbar-brand page-scroll" href="#page-top">{resources.title}</a>
                 </div>
                     
                 <div className ="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul className ="nav navbar-nav navbar-right">
                         <li className ="hidden"><a href="#page-top"></a></li>
-                        <li><a className ="page-scroll" href="#about">About</a></li>
-                        <li><a className ="page-scroll" href="#skills">Skills</a></li>                       
-                        <li><a className ="page-scroll" href="#portfolio">WORK EXPERIENCE</a></li>
-                        <li><a className ="page-scroll" href="#resume">Resume</a></li>
-                        <li><a className ="page-scroll" href="#contact">Contact</a></li>
+                        <li><a className ="page-scroll" href="#about">{resources.menu_about}</a></li>
+                        <li><a className ="page-scroll" href="#skills">{resources.menu_skills}</a></li>                       
+                        <li><a className ="page-scroll" href="#portfolio">{resources.menu_work_experience}</a></li>
+                        <li><a className ="page-scroll" href="#resume">{resources.menu_resume}</a></li>
+                        <li><a className ="page-scroll" href="#contact">{resources.menu_contact}</a></li>
                     </ul>
                 </div>              
     

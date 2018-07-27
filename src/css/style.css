@@ -447,6 +447,7 @@ section h3.section-subheading {
 .navbar-default .navbar-brand {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #4d4d50;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -992,8 +993,11 @@ footer span.copyright {
 -------------------------------------------------*/
 ul.social-buttons {
     margin-bottom: 0;
+    float: right;
 }
-
+ul.social-buttons li{
+    float: left;
+}
 ul.social-buttons li a {
     display: block;
     width: 40px;
@@ -1007,6 +1011,7 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+   
 }
 
 ul.social-buttons li a:hover,
@@ -1268,3 +1273,6 @@ ul.social-buttons li a:active {
         padding: 0 100px 20px 20px;
     }
 }
+
+
+ 
