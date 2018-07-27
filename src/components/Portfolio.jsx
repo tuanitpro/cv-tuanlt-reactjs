@@ -6,7 +6,7 @@ import FlipMove from 'react-flip-move';
 import { Container, Row, Col } from 'reactstrap';
 import Skill from './Skill'
 import resources from '../Resources';
-
+import img1 from '../img/logos/c-liogo1.png';
 class Portfolio extends Component{
     render(){
         return(
@@ -153,7 +153,259 @@ class Portfolio extends Component{
 													</p>
                 
                 </PortfolioItem>
+				<PortfolioItem className="timeline-inverted"
+                mainTitle="CRYPTOCURENCY EXCHANGE"                
+                subTitle="Team Member, Developer"
+                from="OCT 201"
+                to="DEC 2017"
+                >
+        
+                                            <p className="text-muted">Build on deman</p>
+    
+                                            <h6>About project:</h6>
+                                            <p className="text-muted">
+                                                Internal Crypto Currency Exchange Platform
+                                                </p>
+                                                <h6>  Platform &amp; Techniques:</h6>
+                                                <p className="text-muted"> C#, .Net Mvc Entity Framework, SignalR, Realtime, Crypto API </p>
+                                           <h6>Team with 5 members</h6>
+                                                <h6>  Main responsibilities:</h6>
+                                              <p className="text-muted"> 
+                                                    Team member Developer
+                                                    <br /> – Communicating with clients/departments &amp; deriving requirements.
+                                                    <br />  – Define business flow.
+                                                    <br /> - Coding                                                  
+                                                    <br />  – Meeting with project manager to define milestone &amp; release schedule.
+                                            </p>
+                                            <h6>Recognition and Gains:</h6>
+                                            <p className="text-muted"> 
+                                              
+                                                    – Improve business analyzing skill.
+                                                    <br /> – Develop teamwork spirit.
+                                            </p>
+                                        
+                </PortfolioItem>
+
+				 <PortfolioItem 
+                mainTitle="HRM SOLUTION"
+                subTitle="Main Developer"
+                from="JUN 2017"
+                to="SEP 2017"
+                >
+              <div >
+                                            <p className="text-muted">Maintainent Outsourcing</p>
+    
+                                            <h6>About project:</h6>
+                                            <p className="text-muted">
+                                                    Maintainent for currently project of Customer, Develope new feature
+                                                </p>
+                                                <h6>  Platform &amp; Techniques:</h6>
+                                                <p className="text-muted">.NET MVC, Angular 5. SQL Server, Entity Framework</p>
+                                          
+                                                <h6>  Role &amp; Responsibility</h6>
+                                              <p className="text-muted"> 
+                                                   - Team member
+                                                    <br /> – Research and support technical team.
+                                                    <br /> – Coding review
+                                                    <br />  – Solve problems when needed.
+                                                    
+                                            </p>
+                                            
+                                        </div>
                 
+                </PortfolioItem>
+
+					<PortfolioItem className="timeline-inverted"
+                mainTitle="SCG CRM"                
+                subTitle="Team Member, Developer"
+                from="MAY 2017"
+                to="SEP 2017"
+                >
+        
+		<div  >
+                                                <p className="text-muted">Build on deman</p>
+        
+                                                <h6>About project:</h6>
+                                                <p className="text-muted">
+                                                    Microsite, CMR for SCG
+                                                    </p>
+                                                    <h6>  Platform &amp; Techniques:</h6>
+                                                    <p className="text-muted"> C#, .Net Mvc Entity Framework, SignalR</p>
+                                               <h6>Team with 5 members</h6>
+                                               <h6>  Role &amp; Responsibility</h6>
+                                                  <p className="text-muted"> 
+                                                        Team member Developer
+                                                        <br /> – Communicating with clients/departments &amp; deriving requirements.                                                     
+                                                        <br />  – Define business flow.
+                                                        <br />  – Coding
+                                                        <br />  – Meeting with project manager to define milestone &amp; release schedule.
+                                                </p>
+                                                 
+                                            </div>
+                                        
+                </PortfolioItem>
+				<PortfolioItem 
+                mainTitle="SALES MANAGEMENT SYSTEM"
+                subTitle="Business Analyst, Main Developer"
+                from="MAY 2016"
+                to="JUL 2016"
+                >
+             <div>
+                                                    <p className="text-muted"></p>
+                                                    <h6>About project:</h6>
+                                                    <p className="text-muted">
+                                                            Track sales and reward points, ROI tracking, KPI tracking<br />
+                                                            Sales performance management, SMS marketing<br />
+                                                        </p>
+                                                        <h6>  Platform &amp; Techniques:</h6>
+                                                        <p className="text-muted">.NET MVC, SignalR, Realtime, SMS API. SQL Server, Entity Framework</p>
+                                                        <h6>Team with 2 members</h6>
+                                                        <h6>  Role &amp; Responsibility</h6>
+                                                      <p className="text-muted"> 
+                                                           - Business Analyst, Main Developer
+                                                            <br /> – Research and support technical team.
+                                                            <br /> – Coding review
+                                                            <br />  – Solve problems when needed.
+                                                            <br /> – Communicating with clients/departments &amp; deriving requirements.
+                                                            <br />  – Define business flow.
+                                                            <br />  – Investigate current system.
+                                                            
+                                                    </p>
+                                                    
+                                                </div>
+                
+                </PortfolioItem>
+				<PortfolioItem className="timeline-inverted"
+                mainTitle="UPQUES SOCICAL NETWORKING"                
+                subTitle="Business Analyst, Developer"
+                from="2015"
+                to="2017"
+                >
+        
+		<div >                                                   
+                                                <h6>About project:</h6>
+                                                <p className="text-muted">
+                                                        Social sharing knowledge, Platform quora.com 
+                                                        <br />Startup
+                                                    </p>
+                                                    <h6>  Platform &amp; Techniques:</h6>
+                                                    <p className="text-muted">
+                                                         C#, .Net Mvc Entity Framework, MongoDB, SignalR, Facebook, Socical API</p>
+                                               <h6>Team with 2 members</h6>
+                                               <h6>  Role &amp; Responsibility</h6>
+                                                  <p className="text-muted">                                                         
+                                                        – Define business flow.
+                                                        <br />  – Coding Review
+                                                        <br />  – Develope      
+                                                        <br />  –  Deploy                                             
+                                                </p>                                                 
+                                            </div>
+                                        
+                </PortfolioItem>
+
+					<PortfolioItem 
+                mainTitle="YERSIN UNIVERSITY WEBSITE CM"
+                subTitle="Business Analyst, Main Developer"
+                from="MAY 2015"
+                to="OTC 2015"
+                >
+            <div>
+                                                    <p className="text-muted"></p>
+                                                    <h6>About project:</h6>
+                                                    <p className="text-muted">
+                                                            Webiste to show activities of Yersin University<br />
+                                                            Management news, student information, timesheets &amp; transcript inside university
+                                                        </p>
+                                                        <h6>  Platform &amp; Techniques:</h6>
+                                                        <p className="text-muted">.NET MVC, SignalR, SQL Server, Entity Framework, Angular Js. Jquery</p>
+                                                        <h6>Team with 2 members</h6>
+                                                        <h6>  Role &amp; Responsibility</h6>
+                                                      <p className="text-muted"> 
+                                                           - Business Analyst, Main Developer
+                                                            <br /> – Research and support technical team.
+                                                            <br /> – Coding review
+                                                            <br />  – Solve problems when needed.
+                                                            <br/>  – Communicating with clients/departments &amp; deriving requirements.
+                                                            <br />  – Define business flow.
+                                                            <br />  – Investigate current system.
+                                                            
+                                                    </p>
+                                                    
+                                                </div>
+                
+                </PortfolioItem>
+				<PortfolioItem className="timeline-inverted"
+                mainTitle="STUDENT HOUSING MANAGEMENT SYSTEM"                
+                subTitle="Business Analyst, Developer"
+                from="MAR 2015"
+                to="JUN 2015"
+                >
+        
+		<div  >                                                   
+                                                        <h6>About project:</h6>
+                                                        <p className="text-muted">
+                                                               Build for Dormitory of Dalat University
+                                                                <br />Management Student Information, Student finacicals, Student Activities
+                                                            </p>
+                                                            <h6>  Platform &amp; Techniques:</h6>
+                                                            <p className="text-muted">
+                                                                 C#, .Net Mvc Entity Framework, SQL Server, Jquery</p>                                                      
+                                                       <h6>  Role &amp; Responsibility</h6>
+                                                          <p className="text-muted">                                                         
+                                                                – Define business flow.
+                                                                <br />  – Coding, Coding Review
+                                                                <br />  –  Deploy system to clients.                         
+                                                        </p>                                                 
+                                                    </div>
+                                        
+                </PortfolioItem>
+
+					<PortfolioItem 
+                mainTitle="BID AUCTION SYSTEM"
+                subTitle="Business Analyst, Main Developer"
+                from="JUL 2014"
+                to="OTC 2014"
+                >
+           <div >
+                                                    <p className="text-muted"></p>
+                                                    <h6>About project:</h6>
+                                                    <p className="text-muted">
+                                                            Website Ecommerce, Inculde bid auction                                                            
+                                                        </p>
+                                                        <h6>  Platform &amp; Techniques:</h6>
+                                                        <p className="text-muted">.NET MVC, SignalR, Realtime SQL Server, Entity Framework, Angular Js. Jquery</p>                                                        
+                                                        <h6>  Role &amp; Responsibility</h6>
+                                                      <p className="text-muted"> 
+                                                           - Business Analyst, Main Developer
+                                                            <br /> – Research and support technical team.
+                                                            <br /> – Coding review
+                                                            <br />  – Solve problems when needed.
+                                                            <br /> – Communicating with clients/departments &amp; deriving requirements.
+                                                            <br />  – Define business flow.                                                            
+                                                            <br />  –  Deploy system to clients.                                                        
+                                                    </p>
+                                                    
+                                                </div>
+                
+                </PortfolioItem>
+
+
+	<PortfolioItem className="timeline-inverted"
+                mainTitle="FIND MORE PROJECTS"                
+                subTitle=""
+                from="MORE"
+                to="PROJECTS"
+                >
+        
+		<div  >                                                   
+		<a href="https://github.com/tuanitpro">
+               <img src={img1} height="34px" class="img-responsive" alt="" /> <br />
+                                                                        /tuanitpro
+                                                                    </a>                                               
+                                                    </div>
+                                        
+                </PortfolioItem>
+
                </ul>
                </Col>
            </Row>
