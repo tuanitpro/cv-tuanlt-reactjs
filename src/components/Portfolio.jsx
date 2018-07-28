@@ -33,8 +33,8 @@ class Portfolio extends Component{
 							<h2 className="subheading">Work Experience</h2>
 						</div>
 						<div className="timeline-body">
-							<p className="text-muted">5 years of experience in C#.
-                                                Have good experiences with JQuery, Javascript, AngularJs.
+							<p className="text-muted">5 years of experiences in C#. 
+                                                Have good experiences with JQuery, Ajax, Javascript, AngularJs, ReactJs
                                                 Have experiences with Bootstrap/HTML.
                                                 In charge of many project since beginning to production.
                                                 Well structured mindset, can learn new technique & business model easily.
@@ -399,7 +399,7 @@ class Portfolio extends Component{
         
 		<div  >                                                   
 		<a href="https://github.com/tuanitpro">
-               <img src={img1} height="34px" class="img-responsive" alt="" /> <br />
+               <img src={img1} height="34px" className="img-responsive" alt="" /> <br />
                                                                         /tuanitpro
                                                                     </a>                                               
                                                     </div>

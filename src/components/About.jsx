@@ -26,15 +26,15 @@ class About extends Component {
         
                                 </p>
                                 <p className="text-muted">                                   
-                                        Good knowledge of C#-OOP, SOLID Principles, HTML, ASP/ASP.NET MVC, WPF and Windows Form Application, database programming language.                                       
+                                        Good knowledge of C#-OOP, SOLID Principles, ASP/ASP.NET MVC, WPF and Windows Form Application, database programming language.                                       
                                         Clean code.
                                 </p>
                                 <p className="text-muted">
-                                        Good knowledge of HTML, CSS, JavaScript, Ajax Angular JS, Typescript (object oriented with JavaScript, HTML standard compliance, HTM5/CSS3)
+                                        Good knowledge of HTML, CSS, JavaScript, Ajax Angular JS, ReactJs, Typescript (object oriented with JavaScript, HTML standard compliance, HTM5/CSS3)
                                              
                                     </p>
                                     <p className="text-muted">
-                                                Good knowledge of .NET Framework (C#/VB.NET), OOP Design Principles
+                                                Good knowledge of .NET Framework (C#/VB.NET), OOP Design Principles, unit testing
                                               
                                         </p>
                                         <p className="text-muted">
@@ -42,7 +42,7 @@ class About extends Component {
                                               
                                         </p>
                                         <p className="text-muted">
-                                                  Knowledge of some well-known application development frameworks and libraries such as Castle Windsor/Unity/Autofac, Log4Net, NHibernate/Entity Framework, ADO.NET, LinQ, …
+                                                  Knowledge of some well-known application development frameworks and libraries IoC Container such as Castle Windsor/Unity/Autofac/Strucuremap/SimpleInjector, Log4Net, NHibernate/Entity Framework, ADO.NET, LinQ, …
                                           
                                        </p>
         

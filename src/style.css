@@ -512,7 +512,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(./img/header-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -548,7 +548,7 @@ header .intro-text .intro-heading {
 -------------------------------------------------*/
 #status {
     background-color: #28353E;
-    background-image: url("../img/bg-portfolio.jpg");
+    background-image: url("./img/bg-portfolio.jpg");
     color: #fff;
     padding: 100px 0;
 }
@@ -602,7 +602,7 @@ header .intro-text .intro-heading {
 }
 
 .skilBg{
-    background:url(../img/skills.png) no-repeat 0 0;
+    background:url(./img/skills.png) no-repeat 0 0;
 }
 
 .chart {
@@ -887,7 +887,7 @@ aside.clients img:hover {
 -------------------------------------------------*/
 section#contact {
     background-color: #28353e;
-    background-image: url(../img/bg-portfolio.jpg);
+    background-image: url(./img/bg-portfolio.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1111,7 +1111,7 @@ ul.social-buttons li a:active {
     }
 
     .navbar-default {
-        padding: 25px 0;
+       
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -1275,4 +1275,12 @@ ul.social-buttons li a:active {
 }
 
 
- 
+.navbar-trans {
+    background: transparent; }
+  
+  a.navbar-brand, a.logo {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0; }

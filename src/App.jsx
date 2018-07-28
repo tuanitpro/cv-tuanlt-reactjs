@@ -15,9 +15,6 @@ import Resume from './components/Resume';
 import TechLove from './components/TechLove';
 import Contact from './components/Contact';
 
-import Client from './components/Client';
-
-
 class App extends Component {
   render() {
     return (
@@ -28,13 +25,11 @@ class App extends Component {
         <Header />
         </FlipMove>
         <FlipMove duration={250} easing="ease-out">
-        <About />
- 
+        <About /> 
         <TechnicalSkills />
         <Portfolio />
         <HireMe />
-        <Resume />
-        
+        <Resume />        
         </FlipMove>
         <FlipMove duration={250} easing="ease-out">
         <TechLove />

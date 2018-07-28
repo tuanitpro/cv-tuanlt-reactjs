@@ -3,17 +3,17 @@ import React, {
 } from 'react';
 import resources from '../Resources';
 import {
+    Container,
+    Row,
+    Col,
     Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
+    NavLink
+  } from 'reactstrap';
 class Navigation extends Component {
     
     constructor(props) {
@@ -31,9 +31,11 @@ class Navigation extends Component {
       }
     render() {
         return (
-            <div>
-                  <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">{resources.title}</NavbarBrand>
+          <Container>
+          <Row>
+            <Col lg="12">
+          <Navbar  color="light" light expand="md" fixed="top" className="navbar-default">
+          <NavbarBrand href="#page-top">{resources.title}</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -54,10 +56,10 @@ class Navigation extends Component {
               </NavItem>
             </Nav>
           </Collapse>
-        </Navbar>
-         
-    
-        </div>
+        </Navbar>             
+        </Col>
+        </Row>
+        </Container>
         )
     }
 }
