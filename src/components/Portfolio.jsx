@@ -2,10 +2,7 @@ import React, {
     Component
 } from 'react';
 import PortfolioItem from './PortfolioItem';
-import FlipMove from 'react-flip-move';
-import { Container, Row, Col } from 'reactstrap';
-import Skill from './Skill'
-import resources from '../Resources';
+import {  Row, Col } from 'reactstrap';
 import img1 from '../img/logos/c-liogo1.png';
 class Portfolio extends Component{
     render(){

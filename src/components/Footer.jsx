@@ -11,7 +11,7 @@ class Footer extends Component {
                 <Container>
                     <Row>
                     <Col md="4">
-                    <span className="copyright">{resources.the_resume} of <a href="http://tuanitpro.com" target="_blank">{resources.title}</a> &copy; 2018</span>
+                    <span className="copyright">{resources.the_resume} of <a href="http://tuanitpro.com" target="_blank" rel="noopener noreferrer" >{resources.title}</a> &copy; 2018</span>
                     </Col>
                     <Col md="8">
                     <ul className="list-inline social-buttons">

@@ -1,9 +1,7 @@
 import React, {
     Component
 } from 'react';
- 
-import { Container, Row, Col, Button } from 'reactstrap';
- 
+
 class ContactForm extends Component {
     render(){
         return (

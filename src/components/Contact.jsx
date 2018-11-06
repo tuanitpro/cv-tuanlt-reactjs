@@ -31,7 +31,7 @@ class Contact extends Component {
                                     <p className="wow fadeInUp animated"> <i className="fa fa-mobile fa-lg"></i> +84 976060432</p>
                                     <p className="wow fadeInUp animated"> <i className="fa fa-envelope-o"></i> tuanitpro@gmail.com</p>
                                     <p className="wow fadeInUp animated"> <i className="fa fa-link"></i> 
-                                        <a href="http://tuanitpro.com" target="_blank">http://tuanitpro.com</a></p>
+                                        <a href="http://tuanitpro.com" target="_blank" rel="noopener noreferrer" >http://tuanitpro.com</a></p>
                                 </div>
                     </Col>
                 </Row>
