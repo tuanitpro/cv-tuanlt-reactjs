@@ -47,7 +47,7 @@ class About extends Component {
                                        </p>
         
                             <p className="text-muted">I also can work under pressure and have strong passion for learning new things</p>
-                            <p><a className="btn btn-primary btn-lg wow bounce animated" role="button" href="http://cv.tuanitpro.com/CV_TuanLT.pdf" target="_blank">Download Printable Resume</a></p>
+                            <p><a className="btn btn-primary btn-lg wow bounce animated" role="button" href="http://cv.tuanitpro.com/CV_TuanLT.pdf" target="_blank" rel="noopener noreferrer">Download Printable Resume</a></p>
                        
                         </Col>
 
